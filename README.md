@@ -3,10 +3,6 @@
 
 <h2>About the project</h2>
 
-<p>This is an ascetic e-commerce website built with Vue3 and CSS and Django DRF. This
-website features a modern and intuitive design, with easy-to-use navigation and a
-simple shopping experience that puts the focus on the products.</p>
-
 <p>This is a telegram mini-app ready-to-use in production base for complex applications.
 Seamless user authentication without quiting telegram application is built-in and provides
 smooth user experience.</p>

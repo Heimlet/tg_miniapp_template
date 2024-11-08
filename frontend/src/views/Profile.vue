@@ -11,12 +11,12 @@
                         :url="profile.avatar"
                         mode="basic"
                         accept="image/png,image/jpeg"
-                        chooseLabel="Обновить"
+                        chooseLabel="Update"
                         auto
                         :multiple="false"
                         :maxFileSize="2000000"
-                        invalidFileSizeMessage="Файл слишком большой. Размер файла должен быть меньше 2MB."
-                        invalidFileTypeMessage="Неверный тип файла. Разрешены только изображения (PNG, JPEG)."
+                        invalidFileSizeMessage="File is too large. File size must be lower then 2MB."
+                        invalidFileTypeMessage="Invalid file type. (PNG, JPEG only)"
                         @upload="onUpload"
                         @error="onError"
                         :customUpload="true"
@@ -59,46 +59,46 @@
         <small v-if="erroredProfile.lastname" class="error-message">{{ erroredProfile.lastname }}</small>
       </div>
       <div class="mt-2">
-        <label for="phone">Телефон</label>
+        <label for="phone">Phone</label>
         <InputText id="phone"
                    v-model="profile.user.phone"
                    :disabled="isFormDisabled"
                    class="input-form"
                    readonly
                    inputmode="tel"
-                   label="ФИО"
-                   placeholder="Телефон"
+                   label="Phone"
+                   placeholder="Phone"
                    maxlength="15"
         />
       </div>
       <div class="mt-2">
-        <label for="tg-login">Логин в телеграм</label>
+        <label for="tg-login">TG Login</label>
         <InputText id="tg-login"
                    v-model="profile.user.tg_login"
                    :disabled="isFormDisabled"
                    class="input-form"
                    readonly
                    inputmode="tel"
-                   label="Логин"
-                   placeholder="Логин"
+                   label="TG Login"
+                   placeholder="TG Login"
                    maxlength="15"
         />
       </div>
       <div class="mt-2">
-        <label for="nickname">Никнейм</label>
+        <label for="nickname">Nickname</label>
         <InputText v-model="profile.nickname"
                    @blur="handleBlur('nickname')"
                    :disabled="isFormDisabled"
                    id="nickname"
                    class="input-form"
                    inputmode="text"
-                   placeholder="Никнейм"
+                   placeholder="Nickname"
                    maxlength="50"
         />
         <small v-if="erroredProfile.nickname" class="error-message">{{ erroredProfile.nickname }}</small>
       </div>
       <div class="mt-2">
-        <label for="birthdate">День рождения</label>
+        <label for="birthdate">Birthdate</label>
         <DatePicker v-model="profile.birthdate"
                     @blur="handleBlur('birthdate')"
                     :disabled="isFormDisabled"
@@ -112,14 +112,14 @@
         <small v-if="erroredProfile.birthdate" class="error-message">{{ erroredProfile.birthdate }}</small>
       </div>
       <div class="mt-2">
-        <label for="social">Соц. сети</label>
+        <label for="social">Social</label>
         <Textarea v-model="profile.social"
                   @blur="handleBlur('social')"
                   :disabled="isFormDisabled"
                   id="social"
                   class="input-form"
                   inputmode="text"
-                  placeholder="Соц. сети"
+                  placeholder="Social"
                   rows="4"
                   cols="30" maxlength="100"
         />
@@ -155,22 +155,22 @@
       </div>
       <!-- Skeleton for Логин в телеграм -->
       <div class="mt-2">
-        <label for="tg-login">Логин в телеграм</label>
+        <label for="tg-login">TG Login</label>
         <Skeleton width="100%" height="2rem" class="mb-2"></Skeleton>
       </div>
       <!-- Skeleton for Никнейм -->
       <div class="mt-2">
-        <label for="nickname">Никнейм</label>
+        <label for="nickname">Nickname</label>
         <Skeleton width="100%" height="2rem" class="mb-2"></Skeleton>
       </div>
       <!-- Skeleton for День рождения -->
       <div class="mt-2">
-        <label for="birthdate">День рождения</label>
+        <label for="birthdate">Birthdate</label>
         <Skeleton width="100%" height="2rem" class="mb-2"></Skeleton>
       </div>
       <!-- Skeleton for Соц. сети -->
       <div class="mt-2">
-        <label for="social">Соц. сети</label>
+        <label for="social">Social</label>
         <Skeleton width="100%" height="6rem" class="mb-2"></Skeleton>
       </div>
     </div>
@@ -217,7 +217,7 @@ export default {
       } catch (error) {
         toast.add({
           severity: 'error',
-          summary: 'Ошибка при загрузке профиля',
+          summary: 'Error while loading Profile',
           detail: error.detail,
           life: 1500,
         })
@@ -248,8 +248,8 @@ export default {
 
         toast.add({
           severity: 'success',
-          summary: 'Успешно',
-          detail: `Обновили ${response.data.modified.join(', ')}`,
+          summary: 'Successfull',
+          detail: `Updated ${response.data.modified.join(', ')}`,
           life: 5000,
         })
 
@@ -259,7 +259,7 @@ export default {
         Object.assign(originalProfile.value, fieldsToUpdate);
       } catch (error) {
         console.log('error response', error.response)
-        let errorMessage = 'Неизвестная ошибка';
+        let errorMessage = 'Unknown error';
         if (error.response && error.response.data) {
           if (error.response.data.detail) {
             errorMessage = error.response.data.detail;
@@ -283,7 +283,7 @@ export default {
 
         toast.add({
           severity: 'error',
-          summary: 'Ошибка при обновлении профиля',
+          summary: 'Error while updating Profile',
           detail: errorMessage,
           life: 5000,
         });
@@ -343,7 +343,7 @@ export default {
     };
 
     onMounted(async () => {
-      globalState.title = 'Профиль';
+      globalState.title = 'Your Profile';
       // await new Promise(r => setTimeout(r, 500));
 
       await fetchProfile();
@@ -381,7 +381,7 @@ label {
 }
 
 .error-message {
-  color: #ff5252; /* Red text */
-  font-size: 0.875em; /* Slightly smaller text */
+  color: #ff5252;
+  font-size: 0.875em;
 }
 </style>

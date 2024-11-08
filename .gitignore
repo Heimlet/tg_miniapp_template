@@ -1,0 +1,17 @@
+.env
+*/.env
+
+idea
+.idea
+.vscode
+*/idea
+*/.idea
+*/.vscode
+*/.git
+
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+.pyc
+*.pyc

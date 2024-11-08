@@ -1,0 +1,11 @@
+venv/
+env/
+
+!*media/.gitkeep
+media/*
+staticfiles
+
+db_backup/*
+
+users_app/migrations/0*
+tg_miniapp/migrations/0*

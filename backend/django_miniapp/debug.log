@@ -1,0 +1,497 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /api/v2/miniapp_login
+Not Found: /api/v2/miniapp_login/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\tg_miniapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed (GET): /api/v2/miniapp_login/
+Method Not Allowed (GET): /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+Bad Request: /api/v2/miniapp_login/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v2/miniapp_login/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v2/miniapp_login/
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 174, in validate_telegram_data_view
+    firstname = user_info['firstname']
+                ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'firstname'
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 190, in validate_telegram_data_view
+    user = create_user_from_telegram(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\user_creation.py", line 43, in create_user_from_telegram
+    user = create_user_with_profile(username=username, tg_id=tg_id, tg_login=tg_login, profile_fields=profile_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\user_creation.py", line 16, in create_user_with_profile
+    user = User.objects.create_user(pk=pk, username=username, password=password, tg_login=tg_login, tg_id=tg_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() got an unexpected keyword argument 'tg_login'
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\managers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\managers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\managers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\managers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\managers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 188, in validate_telegram_data_view
+    print('serialized_user_data', serialized_user_data)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 546, in __repr__
+    return representation.serializer_repr(self, indent=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\utils\representation.py", line 81, in serializer_repr
+    if hasattr(field, 'fields'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `tg_login` is not valid for model `Profile` in `users_app.serializers.ProfileSerializer`.
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 188, in validate_telegram_data_view
+    print('serialized_user_data', serialized_user_data)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 546, in __repr__
+    return representation.serializer_repr(self, indent=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\utils\representation.py", line 81, in serializer_repr
+    if hasattr(field, 'fields'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `tg_login` is not valid for model `Profile` in `users_app.serializers.ProfileSerializer`.
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 188, in validate_telegram_data_view
+    print('serialized_user_data', serialized_user_data)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 546, in __repr__
+    return representation.serializer_repr(self, indent=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\utils\representation.py", line 81, in serializer_repr
+    if hasattr(field, 'fields'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `tg_login` is not valid for model `Profile` in `users_app.serializers.ProfileSerializer`.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/v2/telegram/validate_webapp_data/
+Not Found: /api/v2/telegram/validate_webapp_data/
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 188, in validate_telegram_data_view
+    print('serialized_user_data', serialized_user_data)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 546, in __repr__
+    return representation.serializer_repr(self, indent=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\utils\representation.py", line 81, in serializer_repr
+    if hasattr(field, 'fields'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'fullname' was declared on serializer ProfileSerializer, but has not been included in the 'fields' option.
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 188, in validate_telegram_data_view
+    print('serialized_user_data', serialized_user_data)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 546, in __repr__
+    return representation.serializer_repr(self, indent=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\utils\representation.py", line 81, in serializer_repr
+    if hasattr(field, 'fields'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'fullname' was declared on serializer ProfileSerializer, but has not been included in the 'fields' option.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /api/v2/user/me/permissions/
+Unauthorized: /api/v2/user/me/permissions/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\tg_miniapp\settings\development.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\tg_miniapp\settings\development.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\tg_miniapp\settings\development.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\tg_miniapp\settings\development.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 197, in validate_telegram_data_view
+    return prepare_set_cookie_response(user)  # todo: take data higher
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py", line 33, in prepare_set_cookie_response
+    response = JsonResponse({"status": "success", "user": serialized_user_data},
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\http\response.py", line 748, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\serializers\json.py", line 106, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserProfileSerializer is not JSON serializable
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v2/miniapp_login/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\http.py", line 43, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 197, in validate_telegram_data_view
+    return prepare_set_cookie_response(user)  # todo: take data higher
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py", line 33, in prepare_set_cookie_response
+    response = JsonResponse({"status": "success", "user": serialized_user_data.validated_data},
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 267, in validated_data
+    raise AssertionError(msg)
+AssertionError: You must call `.is_valid()` before accessing `.validated_data`.
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\services\authentication.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/v2/profile/me/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v2/profile/me/
+Bad Request: /api/v2/profile/me/
+Bad Request: /api/v2/profile/me/
+Bad Request: /api/v2/profile/me/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v2/profile/me/
+Internal Server Error: /api/v2/profile/me/
+Traceback (most recent call last):
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py", line 434, in me
+    serializer.is_valid(raise_exception=True)
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\venv\Lib\site-packages\rest_framework\serializers.py", line 501, in to_internal_value
+    validated_value = validate_method(validated_value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py", line 104, in validate_birthdate
+    if value > date.today():
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'datetime.date'
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v2/profile/me/
+Bad Request: /api/v2/profile/me/
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\pet\portfolio\tg_miniapp\backend\django_miniapp\users_app\views.py changed, reloading.

@@ -26,20 +26,11 @@ smooth user experience.</p>
 
 <h2>Screenshots of the Project 📸</h2>
 <br>
-<h3 align='center'>Telegram bot Start Page 🏡</h3>
-
-<div align='center'>
-
-<img src=''/>
-
-</div>
-
-<br><br>
 <h3 align='center'>Mini App Home Page 👇</h3>
 
 <div align='center'>
 
-<img src=''/>
+<img src='https://github.com/user-attachments/assets/f0b8fc15-030e-412b-9ea9-37bad21e284e'/>
 
 <br>
 <br>
@@ -47,7 +38,7 @@ smooth user experience.</p>
 
 <div align='center'>
 
-<img src=''/>
+<img src='https://github.com/user-attachments/assets/2f8e87fa-d338-4f2f-9495-ca296cd32296'/>
 
 
 <h2> For developers </h2>

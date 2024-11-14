@@ -6,12 +6,15 @@
           <div class="col-auto">
             <Avatar :image="profile.avatar" class="mr-2" size="large" shape="circle"/>
           </div>
-          <div class="col-6">
+          <div class="col-auto">
             <FileUpload name="avatar"
                         :url="profile.avatar"
                         mode="basic"
-                        accept="image/png,image/jpeg"
-                        chooseLabel="Update"
+                        severity="secondary"
+                        class="p-button-outlined"
+                        accept="image/*,png,image/jpeg"
+                        chooseLabel=""
+                        uploadIcon="pi pi-upload"
                         auto
                         :multiple="false"
                         :maxFileSize="2000000"
@@ -43,6 +46,7 @@
         />
         <small v-if="erroredProfile.firstname" class="error-message">{{ erroredProfile.firstname }}</small>
       </div>
+
       <div class="mt-2">
         <label for="fio">Lastname</label>
         <InputText id="fio"
@@ -323,29 +327,16 @@ export default {
       }
     };
 
-    // const handleAvatarChange = (event) => {
-    //   const file = event.target.files[0];
-    //   if (file) {
-    //     const formData = new FormData();
-    //     formData.append('avatar', file);
-    //     updateProfile(formData, true);
-    //   }
-    // };
-
     const onUpload = (event) => {
-      // Handle successful upload
       console.log('Upload successful', event);
     };
 
     const onError = (error) => {
-      // Handle upload error
       console.log('Upload error', error);
     };
 
     onMounted(async () => {
       globalState.title = 'Your Profile';
-      // await new Promise(r => setTimeout(r, 500));
-
       await fetchProfile();
     });
 

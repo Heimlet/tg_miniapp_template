@@ -45,21 +45,70 @@ export default {
       items.value = [
         {
           label: 'Report',
+          icon: 'pi pi-file-excel',
           items: [
             {
-              label: 'Мои покупки',
-              icon: 'pi pi-shopping-cart',
+              label: 'My payments',
+              icon: 'pi pi-bitcoin',
               command: () => {
                 toast.add({
                   severity: 'warn',
-                  summary: 'Внимание!',
-                  detail: 'Раздел в разработке!',
+                  summary: 'Warning',
+                  detail: 'Section is under development!',
+                  life: 2500,
+                });
+              },
+            },
+            {
+              label: 'My data',
+              icon: 'pi pi-credit-card',
+              command: () => {
+                toast.add({
+                  severity: 'warn',
+                  summary: 'Warning',
+                  detail: 'Section is under development!',
                   life: 2500,
                 });
               },
             },
           ]
-        }
+        },
+        {
+          label: 'About us',
+          icon: 'pi pi-info',
+          command: () => {
+            toast.add({
+              severity: 'warn',
+              summary: 'Warning',
+              detail: 'Section is under development!',
+              life: 2500,
+            });
+          },
+        },
+        {
+          label: 'Our Events',
+          icon: 'pi pi-book',
+          command: () => {
+            toast.add({
+              severity: 'warn',
+              summary: 'Warning',
+              detail: 'Section is under development!',
+              life: 2500,
+            });
+          },
+        },
+        {
+          label: 'Support',
+          icon: 'pi pi-heart-fill',
+          command: () => {
+            toast.add({
+              severity: 'warn',
+              summary: 'Warning',
+              detail: 'Section is under development!',
+              life: 2500,
+            });
+          },
+        },
       ].filter(Boolean);
     };
 
@@ -90,63 +139,10 @@ export default {
   padding: 1rem;
 }
 
-
-//.menu-item {
-//  display: flex;
-//  align-items: center;
-//  padding: 0.5rem;
-//  border-radius: 0.25rem;
-//  transition: background-color 0.3s;
-//  color: var(--text-color);
-//}
-
-//.menu-item:hover {
-//  background-color: var(--primary-light);
-//}
-
 .ada-panelmenu {
-  /* Headers normal look */
-  //background: yellow;
-
-  //.p-panelmenu-header {
-  //  background-color: lightblue;
-  //}
-
-
-  /* Header on expanded content */
-
-  //.p-panelmenu-header.p-highlight > a {
-  //  background-color: red;
-  //}
-
-
-  /* Header on hover, but not expanded */
-
-  //.p-panelmenu-header:not(.p-highlight):not(.p-disabled) > a:hover {
-  //  background-color: blueviolet;
-  //}
-
-
-  /* Header on hover, but ALSO Expanded */
-
-  //.p-panelmenu-header.p-highlight:not(.p-disabled) > a:hover {
-  //  background-color: yellow;
-  //}
-
-
-  /* Content (that is expanded/toggled) */
-
-  //.p-panelmenu-content {
-  //  //background-color: aquamarine;
-  //  //padding: 1rem;
-  //}
-
   .p-panelmenu-header-content {
     padding: 0.3rem;
   }
-
-
-  /* Color of border around eacch each header*/
 
   .p-menuitem-content {
     padding: 0.3rem;

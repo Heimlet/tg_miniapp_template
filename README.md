@@ -38,7 +38,7 @@ smooth user experience.</p>
 
 <div align='center'>
 
-<img src='https://github.com/user-attachments/assets/2f8e87fa-d338-4f2f-9495-ca296cd32296'/>
+<img src='https://github.com/user-attachments/assets/efddc22d-678a-4ad9-ada1-e717680dfbf8'/>
 
 
 <h2> For developers </h2>
